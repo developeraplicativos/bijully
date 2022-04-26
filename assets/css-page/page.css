@@ -192,12 +192,22 @@ a.no-decoration:hover{
 }
 @media only screen and (max-width: 566px) {
     main{
-        min-width: 570px!important;
+        /* min-width: 570px!important; */
         margin-top: -60px!important;
     }
     .row.faixa{
         padding: 10%;
     }
+    .g-col-25-25-25-25{
+        grid-template-columns: 100%;
+    }
+    .border-right{
+        border: none!important;
+    }
 }
- 
+@media only screen and (max-width: 390px) {
+    main{
+        min-width: 390px!important; 
+    } 
+} 
  
