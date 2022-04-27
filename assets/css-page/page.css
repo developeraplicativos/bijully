@@ -141,6 +141,12 @@ a.no-decoration{
 a.no-decoration:hover{ 
     color: pink;
 }
+.mouse-pointer{
+    cursor: pointer;
+}
+.text-shadow{
+    text-shadow: 2px 1px 0px grey;
+}
 @keyframes colorback {
     0% {background: #198754;}
     50% {background: #50de9c}
